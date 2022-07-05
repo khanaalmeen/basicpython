@@ -9,4 +9,4 @@ elif num < 2:
 else:
     for i in range(num,1,-1):
         factorial=factorial*i
-    print(factorial)
+    print("Factorial of a number {}! = {}".format(num,factorial))
